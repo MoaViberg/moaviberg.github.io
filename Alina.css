@@ -1,0 +1,39 @@
+#content {
+	margin: auto;
+	width: 800px;
+	height: 2000px;
+	background-color: #0a0003;
+
+
+}
+
+h1 {
+	font-size: 40px;
+	color: #FF00FF; 
+	text-align: center;
+	font-style: Sans-serif; 
+
+}
+
+#skivideo {
+	align-content: center;
+
+
+
+}
+#meny {
+	margin: auto;
+	width: 560px;
+	height: 1000px;
+	background-color: white; 
+	font-style: Sans-serif;
+
+
+}
+h4{
+	font-size: 15px;
+	color: white;
+	margin: 10%;
+	font-style: Sans-serif;
+
+}

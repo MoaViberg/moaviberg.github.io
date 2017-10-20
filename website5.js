@@ -1,3 +1,11 @@
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v2.10';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
 function initMap() {
         var option = {
         	lat: 30.2735345, lng: 15.0816046};
@@ -43,7 +51,6 @@ function initMap() {
             position: {lat: school[1], lng: school[2]},
             map: map,
             icon: image,
-            shape: shape,
             title: school[0],
             zIndex: school[3]
           });
@@ -65,5 +72,7 @@ function oddTrivia() {
 
 
 
-  
+
 }
+
+

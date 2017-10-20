@@ -46,54 +46,7 @@ body{
 
 
 #parent {
-  display: flex;
-}
-#first {
-  width: 225px;
-  background: lightblue;
+  justify-content: flex-end;
   text-align: center;
-
-
-  /* Just so it's visible */
-}
-  #second {
-  width: 225px;
-  background: lightblue;
-    text-align: center;
-  /* Just so it's visible */
-}
-
-  #third {
-  width: 225px;
-  background: lightblue;
-    text-align: center;
-  /* Just so it's visible */
-
-}
-  #fourth {
-  width: 225px;
-  background: lightblue;
-    text-align: center;
-  /* Just so it's visible */
-}
-
-  #fifth {
-  width: 225px;
-  background: lightblue;
-    text-align: center;
-  /* Just so it's visible */
-}
-  #sixth {
-  width: 225px;
-  background: lightblue;
-    text-align: center;
-  /* Just so it's visible */
-}
-#wide {
-width: 225px;
-  /* Grow to rest of container */
-  background: lightblue;
-    text-align: center;
-  /* Just so it's visible */
 }
 

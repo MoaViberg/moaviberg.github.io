@@ -1,0 +1,99 @@
+      #text {
+      	color: black;
+      	text-align: center;
+       }
+
+        #map {
+        height: 400px;
+        width: 100%;
+       }
+
+#container {
+	color: black;
+	text-align: center;
+}
+
+h2 {
+	color: black;
+	text-align: center;
+
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  float: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: darkgrey;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: grey}
+
+.button:active {
+  background-color: #grey;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+body{
+	background-color: #658fbe;
+}
+
+
+#parent {
+  display: flex;
+}
+#first {
+  width: 225px;
+  background: lightblue;
+  text-align: center;
+
+
+  /* Just so it's visible */
+}
+  #second {
+  width: 225px;
+  background: lightblue;
+    text-align: center;
+  /* Just so it's visible */
+}
+
+  #third {
+  width: 225px;
+  background: lightblue;
+    text-align: center;
+  /* Just so it's visible */
+
+}
+  #fourth {
+  width: 225px;
+  background: lightblue;
+    text-align: center;
+  /* Just so it's visible */
+}
+
+  #fifth {
+  width: 225px;
+  background: lightblue;
+    text-align: center;
+  /* Just so it's visible */
+}
+  #sixth {
+  width: 225px;
+  background: lightblue;
+    text-align: center;
+  /* Just so it's visible */
+}
+#wide {
+width: 225px;
+  /* Grow to rest of container */
+  background: lightblue;
+    text-align: center;
+  /* Just so it's visible */
+}
+

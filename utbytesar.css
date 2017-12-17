@@ -1,0 +1,87 @@
+
+h1 {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 34px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+  text-align: center;
+  color: white;
+}
+
+#tva {
+        margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+        #map {
+        height: 400px;
+        width: 100%;
+       }
+
+#container {
+	color: white;
+	text-align: center;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+p {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 25px;
+    color: white;
+}
+
+h3 {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 15.4px;
+    color: white;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 14px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 15.4px;
+  float: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+}
+
+.button:hover {background-color: #dfdfdf}
+
+.button:active {
+  background-color: #dfdfdf;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+body{
+	background-color: #3C6478;
+}
+
+
+#parent {
+  justify-content: flex-end;
+  text-align: center;
+}
+
+img {
+    float: center;
+}
